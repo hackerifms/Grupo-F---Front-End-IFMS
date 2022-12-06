@@ -1,0 +1,110 @@
+body{
+	background-color:rgb(211,211,211);
+}
+.Cabeçalho{
+	height:10vh; 
+	width:100%;
+	background-color:rgb(161,161,161);
+	display: flex;  
+}
+.img1{
+	height: 100%;
+	width:15%;
+}
+.cb1{
+	background-color:black;
+	height: 5vh;
+	width: 10vh;
+	margin-left: 80%;
+	margin-top: 15px;
+}
+.cb2{
+	background-color:black;
+	height: 5vh;
+	width: 10vh;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+.cb3{
+	background-color:black;
+	height: 5vh;
+	width: 10vh;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.img2{
+	margin-left:10%;
+	margin-top:10px;
+	height: 50vh;
+	width: 80%;
+}
+.seleção{
+	display: flex;
+
+}
+.times{
+	margin-left: 20vh;
+	margin-top: 20px;
+}
+.conteinertexto{
+	display: flex;
+}
+.texto{
+	margin-left: 12vh;
+}
+.final{
+	display: flex;
+}
+.esquerdo{
+	height: 80vh;
+	width: 25%; 
+}
+.esquerdo1{
+	height: 168px;
+	width: 300px;
+}
+.esquerdo2{
+	height: 168px;
+	width: 300px;
+}
+.esquerdo3{
+	height: 168px;
+	width: 300px;
+}
+.textocentral{
+ 
+	height: 80vh;
+	width: 50%;
+	text-align: center;
+	line-height: 30px;
+
+}
+.direito{
+	height: 80vh;
+	width: 25%;
+}
+.direito1{
+	height: 168px;
+	width: 300px;
+	margin-left: 30px;
+}
+.direito2{
+	height: 168px;
+	width: 300px;
+	margin-left: 30px;
+}
+.direito3{
+	height: 168px;
+	width: 300px;
+	margin-left: 30px;
+}
+
+@media(max-width: 760px){
+
+.times{
+	display: none;
+
+}
+}
+
